@@ -556,6 +556,11 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.text-primaryColor {
+  --tw-text-opacity: 1;
+  color: hsl(219 92% 52% / var(--tw-text-opacity));
+}
+
 @media (min-width: 550px) {
   .sm\:bg-green-800 {
     --tw-bg-opacity: 1;
