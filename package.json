@@ -1,0 +1,24 @@
+{
+  "name": "ggcldev-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./dist/css/style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggcldev/ggcldev-tailwind-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggcldev/ggcldev-tailwind-starter/issues"
+  },
+  "homepage": "https://github.com/ggcldev/ggcldev-tailwind-starter#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
