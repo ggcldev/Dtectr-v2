@@ -30,12 +30,12 @@
 
 		<!-- Navigation bar -->
 		<!-- -------------- -->
-		<header id="header">
+		<header id="header bg-greyLight">
 			<!-- Container for navbar -->
-			<nav class="container mx-auto py-12 w-full shadow">
+			<nav class="fixed top-0 left-0 mx-auto w-full shadow">
 				<!-- Flex container -->
 				<div
-					class="flex justify-between items-center border-2 border-red-800">
+					class="container mx-auto flex justify-between items-center px-4 py-2">
 					<!-- Logo -->
 					<div class="z-30">
 						<img
@@ -46,14 +46,15 @@
 					</div>
 
 					<!-- Menu Items -->
-					<ul class="inline-flex space-x-4 text-secondaryTextColor">
+					<ul
+						class="hidden inline-flex space-x-4 text-secondaryTextColor">
 						<li>Home</li>
 						<li>About</li>
 						<li>Buton</li>
 					</ul>
 
+					<!-- Hamburger button -->
 					<div class="relative">
-						<!-- Hamburger button -->
 						<button
 							id="menu-btn"
 							class="z-40 block hamburger focus:outline-none">
@@ -61,6 +62,20 @@
 							<span class="hamburger-middle"></span>
 							<span class="hamburger-bottom"></span>
 						</button>
+					</div>
+					<!-- Hidden Menu -->
+					<div
+						id="menu"
+						class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-secondaryTextColor uppercase divide-yopacity-90 bg-greyLight">
+						<div class="w-full py-3 text-center">
+							<a href="#" class="block">Home</a>
+						</div>
+						<div class="w-full py-3 text-center">
+							<a href="#" class="block">About</a>
+						</div>
+						<div class="w-full py-3 text-center">
+							<a href="#" class="block">Features</a>
+						</div>
 					</div>
 				</div>
 			</nav>
