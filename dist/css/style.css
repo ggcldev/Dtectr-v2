@@ -665,6 +665,10 @@ video {
   margin-top: 0px;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -961,6 +965,10 @@ video {
   text-align: center;
 }
 
+.font-sans {
+  font-family: Inter, sans-serif;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -1017,6 +1025,11 @@ video {
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.text-greyDark {
+  --tw-text-opacity: 1;
+  color: hsl(213 13% 86% / var(--tw-text-opacity));
 }
 
 .shadow {
