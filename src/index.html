@@ -45,7 +45,7 @@
 							class="h-10 cursor-pointer" />
 					</div>
 
-					<!-- Menu Items -->
+					<!-- Nav links -->
 					<ul
 						class="hidden inline-flex space-x-4 text-secondaryTextColor">
 						<li>Home</li>
@@ -53,11 +53,32 @@
 						<li>Buton</li>
 					</ul>
 
-					<!-- Hamburger button -->
-					<div class="relative">
+					<!-- Menus -->
+					<div
+						class="relative flex justify-between items-center space-x-6">
+						<!-- Search bar -->
+						<div class="max-w-md mx-auto hidden md:flex">
+							<div
+								class="relative flex items-center w-full h-9 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+								<div
+									class="grid place-items-center h-full w-12 text-primaryTextColor bg-greyLight">
+									<ion-icon name="search-outline"></ion-icon>
+								</div>
+
+								<input
+									class="h-full w-full outline-none text-sm text-gray-700 pr-2 bg-gray-50"
+									type="text"
+									id="search" />
+							</div>
+						</div>
+
+						<!-- Login button -->
+						<button>Login</button>
+
+						<!-- Hamburger button -->
 						<button
 							id="menu-btn"
-							class="z-40 block hamburger focus:outline-none">
+							class="z-40 mt-2 block hamburger focus:outline-none">
 							<span class="hamburger-top"> </span>
 							<span class="hamburger-middle"></span>
 							<span class="hamburger-bottom"></span>
@@ -83,5 +104,11 @@
 
 		<script src="../dist/js/mobile-screen-check.js"></script>
 		<script src="../dist/js/script.js"></script>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	</body>
 </html>
