@@ -1,48 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
+		<title>Dtectr - Redifining Security</title>
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Google Fonts -->
+		<!-- Inter -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+			rel="stylesheet" />
+		<!-- Familjen Grotesk -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&display=swap"
+			rel="stylesheet" />
 
-    <title>Dtectr - Redifining Security</title>
+		<link rel="stylesheet" href="../dist/css/style.css" />
+	</head>
 
-    <!-- Google Fonts -->
-    <!-- Inter -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <!-- Familjen Grotesk -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="../dist/css/style.css" />
+	<body>
+		<!-- <h1
+			class="bg-black sm:bg-green-800 md:bg-blue-800 lg:bg-yellow-800 xl:bg-purple-800"></h1> -->
 
-</head>
+		<!-- Navigation bar -->
+		<!-- -------------- -->
+		<header id="header">
+			<!-- Container for navbar -->
+			<nav class="container mx-auto py-12 w-full shadow">
+				<!-- Flex container -->
+				<div
+					class="flex justify-between items-center border-2 border-red-800">
+					<!-- Logo -->
+					<div class="z-30">
+						<img
+							src="../dist/img/dtectr-logo.png"
+							alt="Dtectr Logo"
+							id="logo"
+							class="h-10 cursor-pointer" />
+					</div>
 
-<body>
+					<!-- Menu Items -->
+					<ul class="inline-flex space-x-4 text-secondaryTextColor">
+						<li>Home</li>
+						<li>About</li>
+						<li>Buton</li>
+					</ul>
 
-    <h1 class = "
-        bg-black 
-        sm:bg-green-800 
-        md:bg-blue-800 
-        lg:bg-yellow-800 
-        xl:bg-purple-800
-        "></h1>
-    
-    
-    <!-- Navigation bar -->
-    <!-- -------------- -->
-    <header id="header">
+					<div class="relative">
+						<!-- Hamburger button -->
+						<button
+							id="menu-btn"
+							class="z-40 block hamburger focus:outline-none">
+							<span class="hamburger-top"> </span>
+							<span class="hamburger-middle"></span>
+							<span class="hamburger-bottom"></span>
+						</button>
+					</div>
+				</div>
+			</nav>
+		</header>
 
-    </header>
-
-    <script src="../dist/js/mobile-screen-check.js"></script>
-    <script src="../dist/js/script.js"></script>
-
-</body>
-
+		<script src="../dist/js/mobile-screen-check.js"></script>
+		<script src="../dist/js/script.js"></script>
+	</body>
 </html>
