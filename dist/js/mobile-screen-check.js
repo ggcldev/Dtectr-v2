@@ -1,7 +1,7 @@
 function showBrowserWidth() {
 	const width = window.innerWidth
 
-	document.querySelector('h1').innerHTML = `Width: ${width}`
+	document.querySelector('h2').innerHTML = `Width: ${width}`
 }
 
 window.onload = showBrowserWidth

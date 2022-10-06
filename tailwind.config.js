@@ -3,10 +3,10 @@ module.exports = {
 	content: ['./src/**/*.{html,js}'],
 	theme: {
 		screens: {
-			sm: '550px',
-			md: '800px',
-			lg: '1200px',
-			xl: '1440px',
+			sm: '480px',
+			md: '768px',
+			lg: '992px',
+			xl: '1200px',
 		},
 		extend: {
 			colors: {
@@ -22,6 +22,12 @@ module.exports = {
 			fontFamily: {
 				sans: ['Inter', 'sans-serif'],
 				serif: ['Familjen Grotesk', 'sans-serif'],
+			},
+			fontSize: {
+				'5.5xl': [
+					'3.375rem',
+					{ lineHeight: '48px', letterSpacing: '-0.01em' },
+				],
 			},
 		},
 	},
