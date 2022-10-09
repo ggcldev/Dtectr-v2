@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Dtectr - Redifining Security</title>
+
+		<!-- Google Fonts -->
+		<!-- Inter -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+			rel="stylesheet" />
+		<!-- Familjen Grotesk -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;700&display=swap"
+			rel="stylesheet" />
+
+		<link rel="stylesheet" href="../dist/css/style.css" />
+	</head>
+
+	<body class="bg-greyLight">
+		<!-- Navigation bar -->
+		<!-- -------------- -->
+		<header id="header">
+			<!-- Container for navbar -->
+			<nav
+				class="fixed top-0 left-0 mx-auto w-full shadow bg-greyLight z-40">
+				<h2
+					class="bg-black sm:bg-green-800 md:bg-blue-800 lg:bg-yellow-800 xl:bg-purple-800">
+					Color
+				</h2>
+				<!-- Flex container -->
+				<div
+					class="container-sm mx-auto flex justify-between items-center px-4 py-2">
+					<!-- Logo -->
+					<div class="z-30">
+						<img
+							src="../dist/img/dtectr-logo.png"
+							alt="Dtectr Logo"
+							id="logo"
+							class="h-8 sm:h-10 cursor-pointer" />
+					</div>
+
+					<!-- Nav links -->
+					<ul
+						class="hidden inline-flex space-x-4 text-secondaryTextColor">
+						<li>Home</li>
+						<li>About</li>
+						<li>Buton</li>
+					</ul>
+
+					<!-- Menus -->
+					<div
+						class="relative flex justify-between items-center space-x-4">
+						<!-- Search bar -->
+						<div class="max-w-md mx-auto hidden md:flex">
+							<div
+								class="relative flex items-center w-full h-9 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+								<div
+									class="grid place-items-center h-full w-12 text-primaryTextColor bg-greyLight">
+									<ion-icon name="search-outline"></ion-icon>
+								</div>
+
+								<input
+									class="h-full pl-2 w-full outline-none text-sm text-gray-700 pr-2 bg-gray-50"
+									type="text"
+									placeholder="Search"
+									id="search" />
+							</div>
+						</div>
+
+						<!-- Login button -->
+						<button
+							class="uppercase font-sans text-primaryTextColor">
+							<ion-icon
+								name="person-sharp"
+								class="text-2xl mt-2 fill-primaryTextColor"></ion-icon>
+						</button>
+
+						<!-- Hamburger button -->
+						<button
+							id="menu-btn"
+							class="z-40 mt-2 block hamburger focus:outline-none">
+							<span class="hamburger-top"> </span>
+							<span class="hamburger-middle"></span>
+							<span class="hamburger-bottom"></span>
+						</button>
+					</div>
+					<!-- Hidden Menu -->
+					<div
+						id="menu"
+						class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest font-sans text-secondaryTextColor uppercase divide-yopacity-90 bg-greyLight">
+						<div class="w-full py-3 text-center">
+							<a href="#" class="block">Home</a>
+						</div>
+						<div class="w-full py-3 text-center">
+							<a href="#" class="block">About</a>
+						</div>
+						<div class="w-full py-3 text-center">
+							<a href="#" class="block">Features</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="text-greyLight">
+				<div
+					class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+					<img
+						class="md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
+						alt="hero"
+						src="/dist/img/product-feature-1.png" />
+					<div class="text-center lg:w-2/3 w-full">
+						<h1
+							class="title-font sm:text-4xl text-3xl mb-4 font-medium text-primaryTextColor">
+							Product - 001
+						</h1>
+						<p class="mb-8 leading-relaxed text-primaryTextColor">
+							Meggings kinfolk echo park stumptown DIY, kale chips
+							beard jianbing tousled. Chambray dreamcatcher trust
+							fund, kitsch vice godard disrupt ramps hexagon
+							mustache umami snackwave tilde chillwave ugh.
+							Pour-over meditation PBR&amp;B pickled ennui celiac
+							mlkshk freegan photo booth af fingerstache
+							pitchfork.
+						</p>
+						<div class="flex justify-center">
+							<button
+								class="inline-flex text-white bg-primaryColor border-0 py-2 px-6 focus:outline-none hover:bg-blue-900 rounded text-lg">
+								Buy Now
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<script src="../dist/js/mobile-screen-check.js"></script>
+		<script src="../dist/js/script.js" defer></script>
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
