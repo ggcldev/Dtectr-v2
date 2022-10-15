@@ -35,11 +35,11 @@
 					class="bg-black sm:bg-green-800 md:bg-blue-800 lg:bg-yellow-800 xl:bg-purple-800">
 					Color
 				</h2>
-				<!-- Flex container -->
+				<!-- Flex container for Navbar content -->
 				<div
 					class="container-sm mx-auto flex justify-between items-center px-4 py-2">
 					<!-- Logo -->
-					<div class="z-30">
+					<div>
 						<img
 							src="../dist/img/dtectr-logo.png"
 							alt="Dtectr Logo"
@@ -85,6 +85,7 @@
 
 						<!-- Hamburger button -->
 						<button
+							onclick="toggleSlideover()"
 							id="menu-btn"
 							class="z-40 mt-2 block hamburger focus:outline-none">
 							<span class="hamburger-top"> </span>
@@ -94,19 +95,30 @@
 					</div>
 					<!-- Hidden Menu -->
 					<div
-						id="menu"
-						class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest font-sans text-secondaryTextColor uppercase divide-yopacity-90 bg-greyLight">
-						<div class="w-full py-3 text-center">
-							<a href="#" class="block">Home</a>
-						</div>
-						<div class="w-full py-3 text-center">
-							<a href="#" class="block">About</a>
-						</div>
-						<div class="w-full py-3 text-center">
-							<a href="#" class="block">Features</a>
+						id="slideover-container"
+						class="w-full h-full fixed inset-0 invisible">
+						<div
+							onclick="toggleSlideover()"
+							id="slideover-bg"
+							class="w-full h-full duration-500 ease-out transition-all inset-0 absolute bg-black opacity-0"></div>
+						<div
+							onclick="toggleSlideover()"
+							id="slideover"
+							class="w-96 bg-greyLight h-full absolute right-0 duration-300 ease-out transition-all translate-x-full">
+							<!-- Menu -->
+							<div class="flex flex-col items-center mt-20">
+								<h1 class="text-black">Hello</h1>
+								<h1 class="text-black">Hello</h1>
+								<h1 class="text-black">Hello</h1>
+								<h1 class="text-black">Hello</h1>
+								<h1 class="text-black">Hello</h1>
+							</div>
+							<!-- End of Menu -->
 						</div>
 					</div>
+					<!-- End of Hidden Menu -->
 				</div>
+				<!-- End of Flex Navbar Content -->
 			</nav>
 		</header>
 
