@@ -680,12 +680,16 @@ video {
   margin-top: 2.5rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
 .mt-12 {
   margin-top: 3rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
 }
 
 .mb-6 {
@@ -1018,6 +1022,11 @@ video {
   padding-bottom: 6rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1100,6 +1109,11 @@ video {
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-xl {
@@ -1190,6 +1204,11 @@ video {
   color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
+.text-secondaryColor {
+  --tw-text-opacity: 1;
+  color: hsl(347 72% 53% / var(--tw-text-opacity));
+}
+
 .text-primaryColor {
   --tw-text-opacity: 1;
   color: hsl(219 92% 52% / var(--tw-text-opacity));
@@ -1202,6 +1221,10 @@ video {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.opacity-20 {
+  opacity: 0.2;
 }
 
 .shadow {
@@ -1283,6 +1306,20 @@ video {
 .open .hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
   background-color: #051a32;
+}
+
+.section-p {
+  max-width: 28rem;
+  text-align: left;
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  --tw-text-opacity: 1;
+  color: hsl(212 82% 11% / var(--tw-text-opacity));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .focus-within\:shadow-lg:focus-within {
@@ -1432,6 +1469,10 @@ video {
     width: 50%;
   }
 
+  .md\:grid-cols-\[20\%_40\%_40\%\] {
+    grid-template-columns: 20% 40% 40%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1494,6 +1535,14 @@ video {
     max-width: 48rem;
   }
 
+  .lg\:grid-cols-\[20\%_40\%_40\%\] {
+    grid-template-columns: 20% 40% 40%;
+  }
+
+  .lg\:grid-cols-\[10\%_45\%_45\%\] {
+    grid-template-columns: 10% 45% 45%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1514,6 +1563,10 @@ video {
 }
 
 @media (min-width: 1200px) {
+  .xl\:grid-cols-\[20\%_40\%_40\%\] {
+    grid-template-columns: 20% 40% 40%;
+  }
+
   .xl\:bg-purple-800 {
     --tw-bg-opacity: 1;
     background-color: rgb(107 33 168 / var(--tw-bg-opacity));
