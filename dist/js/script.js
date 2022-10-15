@@ -19,8 +19,8 @@ const panels = document.querySelectorAll('.panel')
 
 function toggleSlideover() {
 	document.getElementById('slideover-container').classList.toggle('invisible')
-	document.getElementById('slideover-bg').classList.toggle('opacity-0')
-	document.getElementById('slideover-bg').classList.toggle('opacity-25')
+	document.getElementById('slideover-bg').classList.toggle('opacity-20')
+	document.getElementById('slideover-bg').classList.toggle('opacity-50')
 	document.getElementById('slideover').classList.toggle('translate-x-full')
 	btn.classList.toggle('open')
 }
