@@ -54,5 +54,5 @@
 }
 
 .section-p {
-	@apply max-w-md text-left text-base font-sans tracking-normal leading-6 font-normal antialiased text-primaryTextColor;
+	@apply md:max-w-sm lg:max-w-md text-left text-base font-sans tracking-normal leading-6 font-normal antialiased text-primaryTextColor;
 }
