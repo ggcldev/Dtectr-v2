@@ -52,3 +52,7 @@
 	transform: rotate(-45deg) translateY(6px) translateX(-6px);
 	background-color: #051a32;
 }
+
+.section-p {
+	@apply max-w-md text-left text-base font-sans tracking-normal leading-6 font-normal antialiased text-primaryTextColor;
+}
