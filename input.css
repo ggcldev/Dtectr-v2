@@ -56,3 +56,7 @@
 .section-p {
 	@apply md:max-w-sm lg:max-w-md text-left text-base font-sans tracking-normal leading-6 font-normal antialiased text-primaryTextColor;
 }
+
+.feature-container {
+	@apply flex flex-col p-10 bg-greyDark space-y-3;
+}
