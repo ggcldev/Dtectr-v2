@@ -3887,6 +3887,10 @@ textarea.form-control.is-invalid {
   right: 0px;
 }
 
+.right-full {
+  right: 100%;
+}
+
 .z-40 {
   z-index: 40;
 }
@@ -3986,6 +3990,14 @@ textarea.form-control.is-invalid {
   margin-top: 3.5rem;
 }
 
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mr-20 {
+  margin-right: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -4054,6 +4066,18 @@ textarea.form-control.is-invalid {
   max-height: 24rem;
 }
 
+.max-h-14 {
+  max-height: 3.5rem;
+}
+
+.max-h-72 {
+  max-height: 18rem;
+}
+
+.max-h-80 {
+  max-height: 20rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -4082,6 +4106,14 @@ textarea.form-control.is-invalid {
   width: 10rem;
 }
 
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
@@ -4096,6 +4128,42 @@ textarea.form-control.is-invalid {
 
 .max-w-xs {
   max-width: 20rem;
+}
+
+.max-w-xl {
+  max-width: 36rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.flex-initial {
+  flex: 0 1 auto;
+}
+
+.flex-none {
+  flex: none;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .translate-x-full {
@@ -4139,8 +4207,16 @@ textarea.form-control.is-invalid {
   place-items: center;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -4266,6 +4342,21 @@ textarea.form-control.is-invalid {
 
 .border-transparent {
   border-color: transparent;
+}
+
+.border-green-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(134 239 172 / var(--tw-border-opacity));
+}
+
+.border-green-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(187 247 208 / var(--tw-border-opacity));
+}
+
+.border-primaryTextColor {
+  --tw-border-opacity: 1;
+  border-color: hsl(212 82% 11% / var(--tw-border-opacity));
 }
 
 .bg-greyLight {
@@ -4412,12 +4503,20 @@ textarea.form-control.is-invalid {
   padding-left: 0px;
 }
 
+.pl-8 {
+  padding-left: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-sans {
@@ -4968,6 +5067,18 @@ textarea.form-control.is-invalid {
 
   .lg\:mt-32 {
     margin-top: 8rem;
+  }
+
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mr-20 {
+    margin-right: 5rem;
+  }
+
+  .lg\:mr-16 {
+    margin-right: 4rem;
   }
 
   .lg\:h-auto {
