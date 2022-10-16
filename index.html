@@ -172,7 +172,7 @@
 				</div>
 			</section>
 
-			<section class="hero-cta mt-10">
+			<section id="hero-cta" class="mt-10">
 				<div
 					class="container mx-auto hidden md:flex justify-between items-center font-sans">
 					<div class="flex flex-col">
@@ -197,7 +197,7 @@
 				</div>
 			</section>
 
-			<section class="about-section mt-10">
+			<section id="about-section" class="mt-10">
 				<div class="md:container-md lg:container mx-auto px-8">
 					<!-- Section Header -->
 					<div>
@@ -248,7 +248,7 @@
 				</div>
 			</section>
 
-			<section class="features-section">
+			<section id="features-section">
 				<div class="md:container-md lg:container mx-auto">
 					<!-- Section header -->
 					<div class="mb-10">
@@ -338,7 +338,7 @@
 				<!-- end of feature container -->
 			</section>
 
-			<section>
+			<section id="products-section">
 				<div class="container mx-auto">
 					<!-- Tab Navigation -->
 					<ul
@@ -348,60 +348,133 @@
 						<li class="nav-item" role="presentation">
 							<a
 								href="#tabs-home"
-								class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active"
+								class="nav-link block font-semibold text-lg leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent active"
 								id="tabs-home-tab"
 								data-bs-toggle="pill"
 								data-bs-target="#tabs-home"
 								role="tab"
 								aria-controls="tabs-home"
 								aria-selected="true"
-								>Home</a
+								>Indoor</a
 							>
 						</li>
 
 						<li class="nav-item" role="presentation">
 							<a
 								href="#tabs-profile"
-								class="nav-link block font-medium text-xs leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
+								class="nav-link block font-semibold text-lg leading-tight uppercase border-x-0 border-t-0 border-b-2 border-transparent px-6 py-3 my-2 hover:border-transparent hover:bg-gray-100 focus:border-transparent"
 								id="tabs-profile-tab"
 								data-bs-toggle="pill"
 								data-bs-target="#tabs-profile"
 								role="tab"
 								aria-controls="tabs-profile"
 								aria-selected="false"
-								>Profile</a
+								>Outdoor</a
 							>
 						</li>
 					</ul>
 					<!-- Tab Content -->
 					<div class="tab-content" id="tabs-tabContent">
+						<!-- Tab 1 -->
 						<div
 							class="tab-pane fade show active"
 							id="tabs-home"
 							role="tabpanel"
 							aria-labelledby="tabs-home-tab">
-							Tab 1 content
+							<div>
+								<h2
+									class="pl-8 text-4xl font-bold font-serif max-w-sm text-primaryTextColor">
+									Delivering security Defining Security
+								</h2>
+							</div>
+							<div
+								class="grid md:grid-cols-[10%_45%_45%] lg:grid-cols-[10%_45%_45%] xl:grid-cols-[20%_40%_40%] sm:space-y-6 xs:space-y-6 md:space-y-0 lg:space-y-0 mt-8 px-8">
+								<h3
+									class="text-xs sm:text-sm font-semibold uppercase text-secondaryColor">
+									Model - 002
+								</h3>
+
+								<p class="section-p">
+									Our company was founded with a vision: to
+									reimagine the meaning of privacy and
+									security in our communities’ lives. Our goal
+									is to create security camera systems that
+									are adaptable, intelligent and dependable.
+									We harness the power of AI and the cloud to
+									accomplish this.
+								</p>
+
+								<p class="section-p">
+									We believe in perfecting our line one
+									offering at a time because we take your
+									privacy and security seriously. This allows
+									us to guarantee the best product, service
+									and customer support without compromising
+									your experience. Your home security and data
+									privacy should be the least of your worries.
+									Let Dtectr handle it.
+								</p>
+							</div>
+
+							<div class="container flex justify-end mt-8">
+								<div
+									class="flex justify-end flex-1 max-w-5xl border-2 lg:mr-16">
+									<img
+										src="../dist/img/product-img-1.png"
+										alt=""
+										class="object-obtain max-h-96" />
+								</div>
+							</div>
 						</div>
+						<!-- Tab 2 -->
 						<div
 							class="tab-pane fade"
 							id="tabs-profile"
 							role="tabpanel"
 							aria-labelledby="tabs-profile-tab">
-							Tab 2 content
-						</div>
-						<div
-							class="tab-pane fade"
-							id="tabs-messages"
-							role="tabpanel"
-							aria-labelledby="tabs-profile-tab">
-							Tab 3 content
-						</div>
-						<div
-							class="tab-pane fade"
-							id="tabs-contact"
-							role="tabpanel"
-							aria-labelledby="tabs-contact-tab">
-							Tab 4 content
+							<div>
+								<h2
+									class="text-4xl font-bold font-serif max-w-sm text-primaryTextColor">
+									Delivering security Defining Security
+								</h2>
+							</div>
+							<div
+								class="grid md:grid-cols-[10%_45%_45%] lg:grid-cols-[10%_45%_45%] xl:grid-cols-[20%_40%_40%] sm:space-y-6 xs:space-y-6 md:space-y-0 lg:space-y-0 mt-8">
+								<h3
+									class="text-xs sm:text-sm font-semibold uppercase text-secondaryColor">
+									Model - 002
+								</h3>
+
+								<p class="section-p">
+									Our company was founded with a vision: to
+									reimagine the meaning of privacy and
+									security in our communities’ lives. Our goal
+									is to create security camera systems that
+									are adaptable, intelligent and dependable.
+									We harness the power of AI and the cloud to
+									accomplish this.
+								</p>
+
+								<p class="section-p">
+									We believe in perfecting our line one
+									offering at a time because we take your
+									privacy and security seriously. This allows
+									us to guarantee the best product, service
+									and customer support without compromising
+									your experience. Your home security and data
+									privacy should be the least of your worries.
+									Let Dtectr handle it.
+								</p>
+							</div>
+							<div class="container flex justify-end mt-8">
+								<div
+									class="flex justify-end flex-1 max-w-5xl border-2 lg:mr-16">
+									<img
+										src="../dist/img/product-img-2.png"
+										alt=""
+										class="object-obtain max-h-96" />
+								</div>
+							</div>
 						</div>
 					</div>
 					<!-- End of tab content -->
